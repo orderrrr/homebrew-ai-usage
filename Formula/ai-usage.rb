@@ -1,13 +1,13 @@
 class AiUsage < Formula
   desc "Tree-grouped usage report for opencode + Claude Code sessions"
   homepage "https://git.sr.ht/~orderrrr/ai-usage"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/orderrrr/homebrew-ai-usage/releases/download/v0.2.0/ai-usage-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "33d3f1e7cd9d146a9e00de1a8dccd021f833c08d8aca4ad14a36e8ae606761d3"
+      url "https://github.com/orderrrr/homebrew-ai-usage/releases/download/v0.3.0/ai-usage-v0.3.0-darwin-arm64.tar.gz"
+      sha256 "a6402359c700615af0a17a1d012b194ec6d87f712d53709ab166ea5286535f74"
     end
   end
 
