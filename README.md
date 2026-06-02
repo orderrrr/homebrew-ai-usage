@@ -1,15 +1,16 @@
-# orderrrr/homebrew
+# orderrrr/homebrew-ai-usage
 
-Personal Homebrew tap.
+Homebrew tap for [`ai-usage`](https://git.sr.ht/~orderrrr/ai-usage) — a tree-grouped usage report for opencode + Claude Code sessions.
 
 ## Install
 
 ```sh
-brew tap orderrrr/tap git@github.com:orderrrr/homebrew.git
-brew install orderrrr/tap/ai-usage
+brew tap orderrrr/ai-usage
+brew install orderrrr/ai-usage/ai-usage
 ```
 
-## Formulae
+## What gets installed
 
-- **ai-usage** — Tree-grouped usage report for opencode + Claude Code sessions.
-  Source: <https://git.sr.ht/~orderrrr/ai-usage>
+- `ai-usage` binary
+- fish completion at `share/fish/vendor_completions.d/ai-usage.fish`
+- zsh completion at `share/zsh/site-functions/_ai-usage`

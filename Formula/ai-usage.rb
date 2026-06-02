@@ -6,7 +6,7 @@ class AiUsage < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/orderrrr/homebrew/releases/download/ai-usage-v0.1.0/ai-usage-v0.1.0-darwin-arm64.tar.gz"
+      url "https://github.com/orderrrr/homebrew-ai-usage/releases/download/v0.1.0/ai-usage-v0.1.0-darwin-arm64.tar.gz"
       sha256 "867ac88b5e6553887f21258a271681f684be901871648403c6e19b60e5711c12"
     end
   end
